@@ -12,3 +12,5 @@ Installing MySQL Client
    $ chmod 755 mysql.sh
 3. Run the mysql.sh script
    $ ./mysql.sh
+
+   After installation, the RPM will be removed.

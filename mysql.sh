@@ -16,10 +16,9 @@ function install(){
 }
  
 function finish(){
-	cd /home/ec2-user
 	echo "Success Installing MySQL"
 	rpm -qa | grep MySQL
-	rm *.rpm
+	rm -f *.rpm
 }
  
 init
